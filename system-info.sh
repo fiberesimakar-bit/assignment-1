@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ./log.sh
+log_message "System information script started"
 echo "Hostname: $(hostname)"
 echo "User: $(whoami)"
 echo "Date/Time: $(date)"
