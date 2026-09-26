@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source ./log.sh
+log_message "Network check script started"
+
 if [ -z "$1" ]; then
     echo "Error: hostname or IP address is required."
     exit 2
