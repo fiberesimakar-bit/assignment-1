@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ./log.sh
+log_message "Disk check script started"
 threshold="$1"
 
 if [ -z "$threshold" ]; then
