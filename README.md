@@ -180,3 +180,12 @@ Some of the challenges encountered during development included:
 ## Conclusion
 
 This project provided practical experience with Linux administration, Bash scripting, networking, logging, and Git version control. The scripts were tested and committed to the Git repository as part of the development process.
+
+## Validation
+
+The project includes a local grading script that checks the required files, Bash syntax, executable permissions, system information, disk validation, network validation, logging, and Git history.
+
+Run the grader with:
+
+    chmod +x grade.sh *.sh
+    ./grade.sh
